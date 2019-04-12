@@ -1,5 +1,5 @@
-Build.PL
-lib/Slic3r/XS.pm
+Makefile.PL
+XS.pm
 libslic3r.doxygen
 MANIFEST			This list of files
 src/admesh/connect.c

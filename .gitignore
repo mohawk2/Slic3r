@@ -8,7 +8,10 @@ MYMETA.yml
 _build
 blib
 xs/buildtmp
+xs/xsp/mytype.map
+xs/XS.c
 *.o
+*.bs
 MANIFEST.bak
 xs/MANIFEST.bak
 xs/assertlib*

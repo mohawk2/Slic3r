@@ -1,0 +1,12 @@
+The previous Build.PL did (nearly) everything. Now you need to:
+
+  perlbrew install perl-5.26.1 # creates your own personal, isolated perl
+  perlbrew use perl-5.26.1 # switch to new
+  perlbrew lib create normal # creates a local perl-modules installation place
+  perlbrew use perl-5.26.1@normal # uses that
+
+Now do the stuff for Slic3r:
+
+  perl Makefile.PL # maybe add --gui, per the wiki
+  cpanm --installdeps . # gets the things you need to proceed
+  make test
