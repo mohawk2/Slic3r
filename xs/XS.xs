@@ -1,3 +1,5 @@
+#include <xsinit.h>
+
 /* We need one MODULE... line to start the actual XS section of the file.
  * The XS++ preprocessor will output its own MODULE and PACKAGE lines */
 MODULE = Slic3r::XS            PACKAGE = Slic3r::XS
